@@ -9,3 +9,8 @@
     height:auto;
     width:400px;
 }
+.exercise,.cardio,.diet,.physique {
+    border-radius:4px;
+    height:auto;
+    width:250px;
+}

@@ -1,9 +1,56 @@
+body {
+    font-family:Roboto, sans-serif;
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+
+.header {
+    height:80px;
+    background:#1f2937;
+    color:white;
+    display:flex;
+    font-size:25px;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+
+
+.footer {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#1f2937;
+    color:#f9faf8;
+}
+ul {
+    display:flex;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    gap:75px;
+    margin-right:20px;
+}
+
+a {
+    text-decoration:none;
+    color:#f9faf8;
+    font-size:15px;
+
+}
+
+
+
+
+
 .wlk {
     border-radius:4px;
     height:auto;
     width:50px;
 }
-
 .mtn {
     border-radius:4px;
     height:auto;
@@ -13,8 +60,8 @@
     border-radius:4px;
     height:auto;
     width:250px;
+    display:flex;
 }
-
 .img-text {
     text-align:justify;
     width:250px;
@@ -23,3 +70,7 @@
     display:block;
     margin: 0 auto;
 }
+
+
+
+

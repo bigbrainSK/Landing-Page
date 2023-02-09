@@ -4,11 +4,12 @@ body {
     min-height:100vh;
     display:flex;
     flex-direction:column;
+    
 }
 
 .header {
     height:80px;
-    background:#1f2937;
+    background:#087e72;
     color:white;
     display:flex;
     font-size:25px;
@@ -20,7 +21,7 @@ body {
 .main {
     display:flex;
     color:#f9faf8;
-    background:#1f2937;
+    background:#087e72;
     justify-content:center;
     align-items:center;
     
@@ -54,20 +55,37 @@ button {
     font-weight:bolder;
     margin-bottom:0px;
 }
-.seconday {
-    display:flex;
-    
+.secondary {
+    background:rgba(250, 128, 114, 0.669);
+    flex-direction:column;
 }
 
+.container {
+    display:flex;
+    gap:80px;
+    margin-left:50px;
+    margin-right:50px;
+    padding-bottom:50px;
+    margin-bottom:50px;
+    justify-content:center;
+    align-items:start;
+}
 
+.img-text {
+    max-width:350px; 
+}
 
+img {
+    width:350px;
+    height:500px;
+    border:solid #087e72;
+    border-width: .5em;
+    
+}
 .heading {
     text-align:center;
 }
-.img-text {
-    display:flex;
-    
-}
+
 
 .footer {
     display:flex;
@@ -109,20 +127,8 @@ p {
     width:400px;
     margin-right:500px;
 }
-.exercise,.cardio,.diet,.physique {
-    border-radius:4px;
-    height:auto;
-    width:250px;
-    display:flex;
-}
-.img-text {
-    text-align:justify;
-    width:250px;
-}
-.img-text img{
-    display:block;
-    margin: 0 auto;
-}
+
+    
 
 
 

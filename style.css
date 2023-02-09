@@ -23,18 +23,32 @@ body {
     background:#1f2937;
     justify-content:center;
     align-items:center;
+    
 
 }
 .main-content {
     display:flex;
-    
+    margin:0px;
+    padding:0px;
     align-items:center;    
 }
 .main-text {
-    margin-left:500px;
+    margin-left:450px;
+    margin-right:30px;
     margin-bottom:60px;
 }
 
+button {
+    border:none;
+    border-radius:8px;
+    background:#3882f6;
+    color:#f9faf8;
+    padding:8px 24px;
+}
+.bottom-button {
+    border: solid #61b70b;
+    border-radius:8px;
+}
 .main-message {
     font-size:48px;
     font-weight:bolder;

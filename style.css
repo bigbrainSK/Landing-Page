@@ -43,14 +43,11 @@ body {
 button {
     border:none;
     border-radius:8px;
-    background:#3882f6;
+    background:#b76eb8;
     color:#f9faf8;
     padding:8px 24px;
 }
-.bottom-button {
-    border: solid #61b70b;
-    border-radius:8px;
-}
+
 .main-message {
     font-size:48px;
     font-weight:bolder;
@@ -59,6 +56,7 @@ button {
 .secondary {
     background:rgba(250, 128, 114, 0.669);
     flex-direction:column;
+    padding: 100px 0px;
 }
 
 .container {
@@ -81,6 +79,7 @@ img {
     height:500px;
     border:solid #087e72;
     border-width: .5em;
+    border-radius:20px;
     
 }
 .heading {
@@ -97,16 +96,17 @@ img {
     flex-direction:column;
     text-align:center;
     font-weight:bold;
-    background:lightseagreen;
+    background:#087e72;
     color:#f9faf8;
-    font-size:large;
+    font-size:xx-large;
+    padding:80px;
 }
 
 .footer {
     display:flex;
     align-items:center;
     justify-content:center;
-    background:#1f2937;
+    background:#110944;
     color:#f9faf8;
 }
 ul {
@@ -125,10 +125,32 @@ a {
 }
 p {
     display:flex;
-    
 }
 
-
+.last {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:100px;
+    background:#087e72;
+}
+.box {
+    background:#b76eb8;
+    display:flex;
+    padding:30px;
+    border-radius:30px;
+    padding:50px 150px;
+    gap:200px;
+}
+.cta {
+    display:flex;
+    flex-direction:column;
+}
+.bottom-button {
+    border: solid #f9faf8;
+    border-radius:8px;
+    padding:5px 8px;
+}
 .wlk {
     border-radius:4px;
     height:auto;
